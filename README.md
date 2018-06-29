@@ -25,8 +25,20 @@ This project takes advantage of my [React-Redux-Router Start Kit](https://github
 - Less to write organized CSS code
 
 ## Demo
-### 主界面 ###
+### HomePage ###
 ![Home Page](gif/HomePage.gif)
+
+### Change City ###
+![Change City](gif/ChangeCity.gif)
+
+### Search by Keywords ###
+![Search By Keywords](gif/Search.gif)
+
+### User Login ###
+![Login](gif/Login.gif)
+
+### Write Review / Comment ###
+![Write Review](gif/Review.gif)
 
 ## Run locally
 ```
