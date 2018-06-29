@@ -9,7 +9,7 @@ class Star extends React.Component {
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
     }
     render() {
-        // Get Star Number and  number % 5（up to 5 stars）
+        // 获取 star 数量，并取余5（最多5个star）
         let star = this.props.star || 0
         if (star > 5) {
             star = star % 5
