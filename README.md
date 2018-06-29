@@ -26,7 +26,7 @@ This project takes advantage of my [React-Redux-Router Start Kit](https://github
 
 ## Demo
 ### 主界面 ###
-![Home Page](gifs/HomePage.gif)
+![Home Page](gif/HomePage.gif)
 
 ## Run locally
 ```
