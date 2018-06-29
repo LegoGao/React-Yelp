@@ -54,29 +54,29 @@ Visit http://localhost:8080
 
 ```
 .
-├── app                            后端接口
-|    ├─ actions                       运行配置
-|    ├─ components                            静态资源
-|    ├─ config
-|    ├─ constants
-|    ├─ containers
-|    ├─ fetch
-|    ├─ reducers
-|    ├─ router
-|    ├─ static
-|    ├─ store
-|    ├─ util
-|    ├─ index.jsx
-├── mock                      全局组件
-|    ├─ detail
-|    ├─ home
-|    ├─ orderList
-|    ├─ search
-|    ├─ server.js
-├── test                         路由
-├── .babelrc                           vuex
-├── package.json                        全局样式
-├── webpack.config.js                           页面
+├── app                        All front end code in this folder
+|    ├─ actions                Redux actions
+|    ├─ components             Dumb react component(get and display data only)
+|    ├─ config                 LocalStorage util
+|    ├─ constants              Redux constants
+|    ├─ containers             React Container Components(Handle redux store data)
+|    ├─ fetch                  RESt API handlers
+|    ├─ reducers               Reducers
+|    ├─ router                 Page routing
+|    ├─ static                 Static
+|    ├─ store                  Redux store
+|    ├─ util                   Utils
+|    ├─ index.jsx              HTML entry
+├── mock                       All back end code in this folder
+|    ├─ detail                 Detail page data
+|    ├─ home                   Home page data
+|    ├─ orderList              OrderList data
+|    ├─ search                 Search result data
+|    ├─ server.js              Backend server logic
+├── test                       Test code
+├── .babelrc                   Babel config
+├── package.json               Package.json
+├── webpack.config.js          Webpack module bundler
 .
 
 ```
